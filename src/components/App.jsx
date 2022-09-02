@@ -48,7 +48,7 @@ export class App extends Component {
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={options}
-            onLeaveFeedback={() => this.setButtonLabel}
+            onLeaveFeedback={this.setButtonLabel}
           />
         </Section>
 

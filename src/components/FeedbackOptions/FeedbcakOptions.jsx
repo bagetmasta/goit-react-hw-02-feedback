@@ -3,7 +3,7 @@ import { Button } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) =>
   options.map(({ label }) => (
-    <Button key={label} type="button" onClick={onLeaveFeedback()}>
+    <Button key={label} type="button" onClick={onLeaveFeedback}>
       {label}
     </Button>
   ));
